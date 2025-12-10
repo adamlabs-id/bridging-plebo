@@ -98,6 +98,28 @@ Request Body
   ]
 }
 ```
+## Success Response
+``` json
+{
+    "success": true,
+    "code": 201,
+    "message": "Data MCU Berhasil Ditambahkan",
+    "payload": [
+      {
+        "nolab": "B23/251203/0001",
+        "nama_pasien": "Calvin",
+        "no_rm": "VERTEX-PROJECT-DEMO000009",
+        "no_registrasi": "MCU001"
+      },
+      {
+        "nolab": "B23/251203/0002",
+        "nama_pasien": "Bhisma",
+        "no_rm": "VERTEX-PROJECT-DEMO000010",
+        "no_registrasi": "MCU002"
+      }
+    ]
+}
+```
 
 ## Error Resonse
 ### Bad Request
