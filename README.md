@@ -143,7 +143,7 @@ Request Body
   "success": false,
   "errors": [
     {
-      "message": "failed craete MCU, LIS in trouble please try after 5 minut"
+      "message": "Gagal membuat MCU, silakan coba lagi setelah 5 menit"
     }
   ]
 }
@@ -156,7 +156,7 @@ Request Body
   "success": false,
   "errors": [
     {
-      "message": "Duplikat nomer RM VERTEX-PROJECT-DEMO000017"
+      "message": "Nomer RM duplikat ditemukan: VORTEXU001"
     }
   ]
 }
