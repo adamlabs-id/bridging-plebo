@@ -15,7 +15,7 @@ Request Body
   "data": [
     {
       "registrasi": {
-        "no_registrasi": "REG-PROJECT-DEMO000011",
+        "no_registrasi": "VERTEX-PROJECT-DEMO000011",
         "diagnosa_awal": "-",
         "keterangan_klinis": "-",
         "kode_rs": "J05"
