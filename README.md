@@ -10,23 +10,23 @@ Request Body
 ``` json
 {
   "periksa_now": true,
-  "nama": "MCU Vertex Corp",
-  "perusahaan": "Vertex Corp",
+  "nama": "MCU example",
+  "perusahaan": "example company",
   "data": [
     {
       "registrasi": {
-        "no_registrasi": "VERTEX-PROJECT-DEMO000011",
+        "no_registrasi": "REG-PROJECT-DEMO000011",
         "diagnosa_awal": "-",
         "keterangan_klinis": "-",
         "kode_rs": "J05"
       },
       "pasien": {
-        "nama": "Bridget Hudson",
+        "nama": "Asmin",
         "no_rm": "VERTEX-PROJECT-DEMO000011",
         "jenis_kelamin": "P",
         "alamat": "-",
         "no_telphone": "-",
-        "tanggal_lahir": "1976-11-16",
+        "tanggal_lahir": "1972-11-16",
         "nik": "1111111111111111",
         "ras": "-",
         "berat_badan": "0kg",
@@ -35,10 +35,10 @@ Request Body
         "m_kabupaten_id": "KOTA TANGERANG SELATAN",
         "m_kecamatan_id": "PONDOK AREN"
       },
-      "kode_dokter_pengirim": "DR_LARAS",
-      "nama_dokter_pengirim": "dr. Laras Sheila Andini",
-      "kode_unit_asal": "PLBBB",
-      "nama_unit_asal": "Plebo B2B",
+      "kode_dokter_pengirim": "DR_MANSYUR",
+      "nama_dokter_pengirim": "dr. mansyur setia budi",
+      "kode_unit_asal": "UNTR",
+      "nama_unit_asal": "untr B2B",
       "kode_penjamin": "CORPORATE",
       "nama_penjamin": "CORPORATE",
       "kode_icdt": "-",
@@ -62,12 +62,12 @@ Request Body
         "kode_rs": "J05"
       },
       "pasien": {
-        "nama": "Kyle Rodriguez",
+        "nama": "Mala",
         "no_rm": "VERTEX-PROJECT-DEMO000017",
         "jenis_kelamin": "L",
         "alamat": "-",
         "no_telphone": "-",
-        "tanggal_lahir": "1989-11-23",
+        "tanggal_lahir": "1983-11-23",
         "nik": "1111111111111111",
         "ras": "-",
         "berat_badan": "0kg",
@@ -76,10 +76,10 @@ Request Body
         "m_kabupaten_id": "KOTA TANGERANG SELATAN",
         "m_kecamatan_id": "PONDOK AREN"
       },
-      "kode_dokter_pengirim": "DR_LARAS",
-      "nama_dokter_pengirim": "dr. Laras Sheila Andini",
-      "kode_unit_asal": "PLBBB",
-      "nama_unit_asal": "Plebo B2B",
+      "kode_dokter_pengirim": "DR_JOKO",
+      "nama_dokter_pengirim": "dr. Joko Pratomo Admojo",
+      "kode_unit_asal": "UNTR",
+      "nama_unit_asal": "untr B2B",
       "kode_penjamin": "CORPORATE",
       "nama_penjamin": "CORPORATE",
       "kode_icdt": "-",
@@ -106,15 +106,15 @@ Request Body
     "message": "Data MCU Berhasil Ditambahkan",
     "payload": [
       {
-        "nolab": "B23/251203/0001",
-        "nama_pasien": "Calvin",
-        "no_rm": "VERTEX-PROJECT-DEMO000009",
+        "nolab": "J03/251203/0001",
+        "nama_pasien": "Asmin",
+        "no_rm": "VERTEX-PROJECT-DEMO000011",
         "no_registrasi": "MCU001"
       },
       {
-        "nolab": "B23/251203/0002",
-        "nama_pasien": "Bhisma",
-        "no_rm": "VERTEX-PROJECT-DEMO000010",
+        "nolab": "J03/251203/0002",
+        "nama_pasien": "Mala",
+        "no_rm": "VERTEX-PROJECT-DEMO000017",
         "no_registrasi": "MCU002"
       }
     ]
